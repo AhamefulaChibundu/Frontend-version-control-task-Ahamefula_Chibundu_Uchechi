@@ -22,3 +22,33 @@ const quizData = [
   }
 ];
 
+let currentQuestionIndex = 0;
+let score = 0;
+
+
+const questionEl = document.getElementById("question");
+const answersEl = document.getElementById("answers");
+const quizContainer = document.getElementById("quiz-container");
+
+
+
+
+//Load Question (Arrow Function + Destructuring)
+const loadQuestion = () => {
+
+
+  const { question, options } = quizData[currentQuestionIndex];
+
+
+  questionEl.textContent = question;
+  answersEl.innerHTML = "";
+
+
+  options.forEach(option => {
+    answersEl.innerHTML += `
+      <button class="answer-btn">${option}</button>
+    `;
+  });
+};
+
+
