@@ -60,6 +60,9 @@ Added the functionality of the app
 Review Process:
 Comments were added to simulate a review process. After addressing feedback, PRs were merged using GitHub.
 
+## Screenshot of merged branches
+![screenshot of merged branches](image.png)
+
 
 ## Branch Renaming & Sync Workflow
 
