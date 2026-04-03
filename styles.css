@@ -15,4 +15,35 @@ body {
       box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
 
+    button {
+      display: block;
+      width: 100%;
+      margin: 8px 0;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background: #3498db;
+      color: white;
+      font-size: 16px;
+    }
+
+
+    button:hover {
+      background: #2980b9;
+    }
+
+
+    .correct {
+      background: green !important;
+    }
+
+
+    .wrong {
+      background: red !important;
+    }
+ 
+
+
+
     
